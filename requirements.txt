@@ -1,8 +1,8 @@
 # analysis
-numpy==2.0.2
+numpy==1.26.4
 pandas==2.2.3
 statsmodels==0.14.4
-sklearn==0.0.post12
+scikit-learn==1.5.2
 
 # web
 bs4==0.0.2
