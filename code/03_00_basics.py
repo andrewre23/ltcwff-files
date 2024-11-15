@@ -5,7 +5,7 @@ import pandas as pd
 # stored
 # on Windows it might be something like 'C:/mydir'
 
-DATA_DIR = '/Users/nathan/fantasybook/data'
+DATA_DIR = './data'
 
 ##############
 # Loading data

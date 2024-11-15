@@ -6,7 +6,7 @@ from os import path
 # stored
 # on Windows it might be something like 'C:/mydir'
 
-DATA_DIR = '/Users/nathan/fantasybook/data'
+DATA_DIR = './data'
 
 # note: we're passing the index_col argument, which immediately setting the
 # index to be the player_id column

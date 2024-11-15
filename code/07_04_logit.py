@@ -3,7 +3,7 @@ import math
 import statsmodels.formula.api as smf
 from os import path
 
-DATA_DIR = '/Users/nathan/fantasybook/data'
+DATA_DIR = './data'
 
 #####################
 # logistic regression

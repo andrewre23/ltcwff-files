@@ -8,7 +8,7 @@ import pandas as pd
 from os import path
 import sqlite3
 
-DATA_DIR = '/Users/nathan/fantasybook/data'
+DATA_DIR = './data'
 
 conn = sqlite3.connect(path.join(DATA_DIR, 'fantasy.sqlite'))
 

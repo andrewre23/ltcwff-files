@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split, cross_val_score
 from os import path
 
-DATA_DIR = '/Users/nathan/fantasybook/data'
+DATA_DIR = './data'
 DATA_DIR = './data'
 
 df = pd.read_csv(path.join(DATA_DIR, 'player_game_2017_sample.csv'))

@@ -288,6 +288,6 @@ os.cpu_count()
 from os import path
 
 # change this to the location of your data
-DATA_DIR = '/Users/nathan/fantasybook/data'
+DATA_DIR = './data'
 path.join(DATA_DIR, 'adp_2017.csv')
 os.path.join(DATA_DIR, 'adp_2017.csv')  # alt if we didn't want to import path

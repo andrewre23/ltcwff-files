@@ -9,8 +9,8 @@ import sqlite3
 # only need to run this section once
 
 # handle directories
-DATA_DIR = '/Users/nathan/fantasybook/data'
-DATA_DIR =  './data/'
+DATA_DIR = './data'
+DATA_DIR =  './data'
 
 # create connection
 conn = sqlite3.connect(path.join(DATA_DIR, 'fantasy.sqlite'))

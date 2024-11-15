@@ -13,7 +13,7 @@ Questions with written (not code) answers are inside triple quotes.
 import pandas as pd
 from os import path
 
-DATA_DIR = '/Users/nathan/fantasybook/data'
+DATA_DIR = './data'
 adp = pd.read_csv(path.join(DATA_DIR, 'adp_2017.csv'))
 
 #######
@@ -151,7 +151,7 @@ pg.head()
 import pandas as pd
 from os import path
 
-DATA_DIR = '/Users/nathan/fantasybook/data'
+DATA_DIR = './data'
 pg = pd.read_csv(path.join(DATA_DIR, 'player_game_2017_sample.csv'))
 
 #######
@@ -195,7 +195,7 @@ pg['week'].value_counts()  #14, 8
 import pandas as pd
 from os import path
 
-DATA_DIR = '/Users/nathan/fantasybook/data'
+DATA_DIR = './data'
 adp = pd.read_csv(path.join(DATA_DIR, 'adp_2017.csv'))
 
 #######
@@ -273,7 +273,7 @@ how many yards he rushed for *total*, that's a loss of information.
 import pandas as pd
 from os import path
 
-DATA_DIR = '/Users/nathan/fantasybook/data'
+DATA_DIR = './data'
 pbp = pd.read_csv(path.join(DATA_DIR, 'play_data_sample.csv'))
 
 # b
@@ -351,7 +351,7 @@ C.Newton              2.0  0.0  ...   0.0  2.0  1.0  4.0  0.0  1.0
 import pandas as pd
 from os import path
 
-DATA_DIR = '/Users/nathan/fantasybook/data'
+DATA_DIR = './data'
 df_touch = pd.read_csv(path.join(DATA_DIR, 'problems/combine1', 'touch.csv'))
 df_yard = pd.read_csv(path.join(DATA_DIR, 'problems/combine1', 'yard.csv'))
 df_td = pd.read_csv(path.join(DATA_DIR, 'problems/combine1', 'td.csv'))
@@ -385,7 +385,7 @@ Note also we have to set the index equal id before concating.
 import pandas as pd
 from os import path
 
-DATA_DIR = '/Users/nathan/fantasybook/data'
+DATA_DIR = './data'
 qb = pd.read_csv(path.join(DATA_DIR, 'problems/combine2', 'qb.csv'))
 rb = pd.read_csv(path.join(DATA_DIR, 'problems/combine2', 'rb.csv'))
 wr = pd.read_csv(path.join(DATA_DIR, 'problems/combine2', 'wr.csv'))
@@ -401,7 +401,7 @@ df = pd.concat([qb, rb, wr, te])
 import pandas as pd
 from os import path
 
-DATA_DIR = '/Users/nathan/fantasybook/data'
+DATA_DIR = './data'
 adp = pd.read_csv(path.join(DATA_DIR, 'adp_2017.csv'))
 
 # b
